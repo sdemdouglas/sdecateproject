@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="Home">
+	
+	  <siteMapNode title="Local Plan" description="Local Plan">
+		  <siteMapNode url="~/LocalPlan/ApplicationProcess.aspx" title="Application Process" description="Application Process"/>
+		  <siteMapNode url="~/LocalPlan/AmendmentProcess.aspx" title="Amendment Process" description="Amendment Process" />
+	  </siteMapNode>
+
+	
+	  <siteMapNode title="Accountability" description="Accountability">
+		  <siteMapNode url="~/Accountability/AnnualReport.aspx" title="Annual Report" description="Annual Report" />
+		  <siteMapNode url="~/Accountability/ImmprovementPlans.aspx" title="Immprovement Plans" description="Improvement Plans" />
+		 </siteMapNode>
+	  
+	  <siteMapNode title="Reports" description ="Reports">
+		  <siteMapNode></siteMapNode>
+		 </siteMapNode>
+	  <siteMapNode title="Document Library" description="Document Library">
+			 
+		 </siteMapNode>
+	  <siteMapNode title="Administration" description="Administration Options">
+		  <siteMapNode url="~/AdministrationOptions/ProfileManagement.aspx" title="Profile Management" description="Profile Management"/>		  
+		 </siteMapNode>
+  </siteMapNode>	
+</siteMap>
+
+
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/Default.aspx" title="Home"  description="Home page">
+		<siteMapNode url="~/Section1/Default.aspx" title="Section 1"  description="Section 1 Landing Page">
+			<siteMapNode url="~/Section1/Page1.aspx" title="Page 1.1"  description="Page 1 of Section 1" />
+			<siteMapNode url="~/Section1/Page2.aspx" title="Page 1.2"  description="Page 2 of Section 1" />
+			<siteMapNode url="~/Section1/Page3.aspx" title="Page 1.3"  description="Page 3 of Section 1" />
+		</siteMapNode>
+		<siteMapNode url="~/Section2/Default.aspx" title="Section 2"  description="Section 2 Landing Page">
+			<siteMapNode url="~/Section2/Page1.aspx" title="Page 2.1"  description="Page 1 of Section 2" />
+			<siteMapNode url="~/Section2/Page2.aspx" title="Page 2.2"  description="Page 2 of Section 2" />
+			<siteMapNode url="~/Section2/Page3.aspx" title="Page 2.3"  description="Page 3 of Section 2" />
+			<siteMapNode url="~/Section2/SubSection1/Default.aspx" title="Subsection 1"  description="Subsection 1 Landing Page">
+				<siteMapNode url="~/Section2/SubSection1/Page1.aspx" title="SubPage 1.1"  description="Page 1 of Subsection 1" />
+				<siteMapNode url="~/Section2/SubSection1/Page2.aspx" title="SubPage 1.2"  description="Page 2 of Subsection 1" />
+				<siteMapNode url="~/Section2/SubSection1/Page3.aspx" title="SubPage 1.3"  description="Page 3 of Subsection 1" />
+			</siteMapNode>
+		</siteMapNode>
+		<siteMapNode url="~/Section3/Default.aspx" title="Section 3"  description="Section 3 Landing Page">
+			<siteMapNode url="~/Section3/Page1.aspx" title="Page 3.1"  description="Page 1 of Section 3" />
+			<siteMapNode url="~/Section3/Page2.aspx" title="Page 3.2"  description="Page 2 of Section 3" />
+			<siteMapNode url="~/Section3/Page3.aspx" title="Page 3.3"  description="Page 3 of Section 3" />
+		</siteMapNode>
+    <siteMapNode url="~/Contact.aspx" title="Contact" description="Contact Us" />
+	</siteMapNode>  
+</siteMap>
+
