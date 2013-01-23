@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/Home.aspx" title="Home"  description="Home page">
+		<siteMapNode url="~/Localplan/GeneralInfo.aspx" title="Local Plan"  description="Local Plan">
+			<siteMapNode url="~/Localplan/Assurances.aspx" title="Assurances"  description="Assurances" />
+			<siteMapNode url="~/Localplan/Narratives.aspx" title="Narratives"  description="Narratives" />
+			<siteMapNode url="~/Localplan/Activities.aspx" title="Activities"  description="Activities" />
+			<siteMapNode url="~/Localplan/Amendments.aspx" title="Amendments"  description="Amendments" />
+			<siteMapNode url="~/Localplan/Reimbursements.aspx" title="Reimbursements"  description="Reimbursements" />
+
+		</siteMapNode>
+		
+		<siteMapNode url="~/Accountability/Default.aspx" title="Accountability"  description="Accountability">
+			<siteMapNode url="~/Accountability/AnnualReport.aspx" title="Annual Report" description="Annual Report" />
+			<siteMapNode url="~/Accountability/ImprovementPlans.aspx" title="Improvement Plans" description="Improvement Plans" />
+
+		</siteMapNode>
+
+		<siteMapNode url="~/Reports/Reports.aspx" title="Reports"  description="Reports">
+	
+		</siteMapNode>
+
+		<siteMapNode url="~/DocumentLibrary/Documents.aspx" title="Document Library"  description="Docuements">
+
+		</siteMapNode>
+
+		<siteMapNode url="~/Administration/CollegeAppropiation.aspx" title="Administration"  description="Administration">
+			<siteMapNode url="~/Administration/CollegeInformation.aspx" title="College Information" description="College Information" />
+			<siteMapNode url="~/Administration/UserCodes.aspx" title="User Codes" description="User Codes" />
+			<siteMapNode url="~/Administration/DocumentView.aspx" title="Documents"  description="Documents"/>
+		</siteMapNode>
+		
+		
+		
+		
+	</siteMapNode>
+</siteMap>
