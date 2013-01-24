@@ -1,0 +1,20 @@
+﻿body 
+{
+	  background-color:white;
+}
+
+.fundsspan
+{
+	visibility:hidden;
+	width:0px;
+}
+.equipspan
+{
+	visibility:visible;
+
+}
+
+.category
+{
+	
+}

@@ -1,0 +1,19 @@
+﻿
+body
+{
+	background-color:White;
+}
+div { visibility:hidden;
+}
+#activity, #FundHEADER
+{
+	visibility:visible;
+}
+
+.fundsspan,.equipspan
+{
+	visibility:hidden;
+	width:0px;
+}
+
+

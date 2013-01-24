@@ -1,0 +1,123 @@
+.ComboBoxDropDown_WindowsXP
+{	
+	border: 1px solid #6699cc; /*black;*/
+	background-color: white;
+	cursor: pointer;
+	_cursor: hand;
+}
+
+.ComboBoxImage_WindowsXP
+{
+	vertical-align:middle;
+	border: 1px solid #7F9DB9;
+	border-left:none;
+}
+
+.ComboBoxImageHover_WindowsXP
+{
+	vertical-align:middle;
+	border: 1px solid #7F9DB9;
+	border-left: none;
+}
+
+.ComboBoxInput_WindowsXP
+{
+	border: 1px solid #7F9DB9;
+	border-right:none;
+	background-color: white;
+	vertical-align: middle;
+	font-family: 'Trebuchet MS';
+	font-size: 10pt;
+	color: black;
+	/*padding-top: 4px;*/
+	padding-left: 3px;
+	height: 22px;
+	cursor: default;
+}
+
+.ComboBoxInputHover_WindowsXP
+{
+	border: 1px solid #7F9DB9;	
+	border-right: none;
+	background-color: white;
+	vertical-align: middle;
+	font-family: 'Trebuchet MS';
+	font-size: 10pt;
+	color: black;
+	/*padding-top: 4px;*/
+	padding-left: 3px;
+	height: 22px;
+	cursor: default;
+}
+
+.ComboBoxItem_WindowsXP
+{
+	font-family: 'Trebuchet MS';
+	font-size: 10pt; 
+	color: Black; /* #333333;	*/
+	padding: 3px;
+	text-decoration: none;
+	text-align: left;
+	_height:1%;
+	
+}
+
+.ComboBoxItemHover_WindowsXP
+{
+	font-family: 'Trebuchet MS';
+	font-size: 10pt; 
+	color: white;
+	text-decoration: none;
+	background-color: #3366cc; 
+	cursor: pointer;
+	cursor: hand;
+	padding: 3px;
+	text-align: left;
+	_height:1%;
+	
+}
+
+.ComboBoxItemDisabled_WindowsXP
+{
+	font-family: 'Trebuchet MS';
+	font-size: 10pt; 
+	color: gray;
+	cursor: no-drop;
+	padding: 3px;
+	text-decoration: none;
+	text-align: left;
+}
+
+.ComboBoxLoadingMessage_WindowsXP
+{
+	font-family: 'Trebuchet MS';
+	font-size: 10pt; 
+	padding: 2px;
+}
+
+.ComboBoxMoreResultsMessage_WindowsXP
+{
+	font-family: 'Trebuchet MS';
+	font-size: 10pt; 
+	padding: 2px;
+	text-align: center;
+}
+
+
+.ComboBoxMoreResultsImage_WindowsXP
+{
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.ComboBoxMoreResultsBox_WindowsXP
+{
+	background-color: #EEEEE5;
+}
+
+.ComboBoxHeader_WindowsXP
+{
+	background-color: #EEEEE5;
+	font-size: 12px;
+	font-weight: bold;
+}

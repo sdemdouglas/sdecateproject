@@ -1,0 +1,166 @@
+div.qsf_bluemodule
+{
+	float: left;
+	width: 456px;
+	height: auto;
+	font: normal 12px Verdana, Arial, Sans-serif;
+	cursor: default;
+}
+
+div.qsf_bluemodule_corners
+{
+	font-size: 1px;
+	height: 12px;
+}
+
+.topcorner
+{
+	background: url('Img/BlueModuleTop.gif') no-repeat;
+}
+
+.bottomcorner
+{
+	clear: both;
+	background: url('Img/BlueModuleBottom.gif') no-repeat;
+}
+
+div.qsf_bluemodule h2
+{
+	padding: 0;
+	margin: 0;
+	background: transparent url('Img/BlueModuleHeaderBg.gif') no-repeat;
+	line-height: 31px;
+	padding-left: 29px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #446174;
+	clear: both;
+}
+
+div.qsf_bluemodule a
+{
+	color: #303030;
+	font-size: 11px;
+}
+
+ul.qsf_bluemodule_list
+{
+	padding: 0;
+	margin: 0;
+	background: transparent url('Img/BlueModuleBg.gif') repeat-y;
+	list-style: none;
+	width: 100%;
+	float: left;
+}
+
+ul.qsf_bluemodule_list li
+{
+	float: left;
+	text-align: center;
+}
+
+ul.qsf_bluemodule_list img
+{
+	display: block;
+	border: solid 1px #909090;
+	margin: 8px 52px 8px 52px;
+}
+
+ul.qsf_bluemodule_list span
+{
+	display: block;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+span.integration_info
+{
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 28px;
+}
+
+/* right info panel classes */
+div.qsf_infopanel
+{
+	width: 283px;
+	float: left;
+	margin-left: 6px;
+	font: normal 11px Verdana, Arial;
+	color: #303030;
+	position: relative;
+	left: 4px;
+}
+
+div.qsf_infopanel_top
+{
+	height: 11px;
+	font-size: 1%;
+	background: transparent url('Img/InfoPanelBgTop.gif') no-repeat;
+}
+
+div.qsf_infopanel_btm
+{
+	height: 11px;
+	font-size: 1%;
+	background: transparent url('Img/InfoPanelBgBtm.gif') no-repeat;
+}
+
+div.qsf_infopanel_content
+{
+	background: url('Img/InfoPanelBgr.gif') repeat-y;
+	padding: 16px;
+	height: 395px;
+}
+
+div.qsf_infopanel_content div.listHolder
+{
+	margin: 13px 0 13px 42px;
+}
+
+div.qsf_infopanel_content div.inputHolder
+{
+	margin-bottom: 34px;
+	float: left;
+}
+
+div.qsf_infopanel_content ul
+{
+	padding: 0;
+	margin: 0;
+}
+
+div.qsf_infopanel_content ul li
+{
+	line-height: 17px;
+}
+
+div.qsf_infopanel_content h4
+{
+	color: #446174;
+	font-size: 16px;
+	padding: 0;
+	padding-left: 22px;
+	margin: 0;
+	background: url('Img/InfoPanelHeadingBg.gif') no-repeat;
+	line-height: 31px;
+	clear: both;
+}
+
+div.qsf_infopanel_content a
+{
+	color: #303030;
+}
+
+div.qsf_infopanel_content input
+{
+	border: solid 1px #d3dde2;
+	width: 152px;
+	float: left;
+	color: #303030;
+}
+
+div.qsf_infopanel_content button
+{
+	float: left;
+}

@@ -1,0 +1,197 @@
+/* r.a.d.grid Web 2.0 skin */
+
+div.RadGrid_Web20
+{
+	background: whitesmoke;
+	text-align: left;
+	cursor: default;
+	width: 99%;
+	font-weight: normal;
+	font-size: 9pt;
+	line-height: normal;
+	font-family: 'Microsoft Sans Serif';
+	border-top-width: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-left-width: 1px;
+	border-left-color: #6788be;
+	border-bottom-width: 1px;
+	border-bottom-color: #6788be;
+	padding-bottom: 10px;
+	border-top-color: #6788be;
+	padding-top: 5px;
+	border-right-width: 1px;
+	border-right-color: #6788be;
+}
+
+.RadGrid_Web20 td, .RadGrid_Web20 td a
+{
+	color: black;
+	font: 9pt 'Microsoft Sans Serif';
+}
+
+.MasterTable_Web20
+{ 
+	border: 0px !important;
+	border-collapse: separate !important;
+	color: #333;
+	/*-moz-user-select: none;*/ /*disables text selecting in Firefox to combat unpleasant visual appearance*/
+ }
+
+
+.MasterTable_Web20 td,
+.MasterTable_Web20 th
+{
+	padding:4px 4px;
+}
+
+th.GridHeader_Web20,
+th.ResizeHeader_Web20
+{
+	font: bold 12px Arial, Verdana, Sans-serif;
+	background: #92b4e0;
+	padding-left: 6px; /*more than items to compensate for item borders!*/
+	height: 21px;
+	color: white;
+}
+
+.GridHeader_Web20 a
+{
+	color: black;
+	font: bold 9pt Arial, Verdana, Sans-serif;
+	text-decoration: none;
+}
+
+.GridRow_Web20, .GridAltRow_Web20
+{
+	background: white;
+	height: 21px;
+	color: aqua;
+}
+.GridRow_Web20 td, .GridAltRow_Web20 td, .GridEditRow_Web20 td
+{
+	border-bottom: solid 1px #d8dde0;
+}
+
+.SelectedRow_Web20
+{
+	background: #dcfc5c !important;
+	height: 21px;
+}
+.SelectedRow_Web20 td
+{
+	border-bottom: solid 1px #accb2d;
+}
+
+.GridEditRow_Web20
+{
+	background-color: #ffffe1;
+	height:21px;
+}
+.GridEditRow_Web20 input
+{
+	font-size: 11px;
+}
+
+.ActiveRow_Web20
+{
+	background: #e7f1ff !important;
+	height: 21px;
+}
+.ActiveRow_Web20 td
+{
+	border-bottom: solid 1px #a5bedf;
+}
+
+.GridPager_Web20
+{
+	height: 25px;
+	font-size: 9pt;
+	color: dimgray;
+	font-family: 'Microsoft Sans Serif';
+	background: whitesmoke;
+}
+.GridPager_Web20 td
+{
+	color: #666;
+}
+
+.GridFooter_Web20
+{
+	background: #fbfbfb;
+	height: 21px;
+	color: #666;
+}
+.GridFooter_Web20 td
+{
+	border: solid 1px #fbfbfb;
+	border-top: 1px solid #e8e6e6;
+}
+
+.GridFooter_Web20 a,
+.GridPager_Web20 td,
+.GridPager_Web20 a
+{
+	font-weight: bold !important;
+}
+
+.GridPager_Web20 td a:hover,
+.GridFooter_Web20 td a:hover
+{
+	color: #666;
+}
+
+tr.GroupHeader_Web20
+{
+	background: #fff;
+	height: 21px;
+	
+}
+tr.GroupHeader_Web20 td
+{
+	border-bottom: solid 2px #6788be;
+
+}
+
+table.GroupPanel_Web20
+{
+	background: #ffebcc;
+	width: 100% !important;
+	height: 20px;
+	border-collapse: collapse;
+	border: dashed 1px #ff9900;
+	margin-bottom: 12px;
+	text-align: center;
+	color: #333;
+}
+
+.GroupPanelItems_Web20
+{
+	background: #544b58 url('Img/GroupPanelItemsButtonBg.gif') repeat-x;
+	color: #ffebcc;
+	border: solid 1px #8e827f;
+	white-space:  nowrap;
+	font-size: 11px;
+	padding: 0px 30px;
+	height: 18px;
+}
+
+td.GridHeader_Web20 input
+{
+	margin-top: 10px;
+	width: auto;
+	float: left;
+	border: solid 1px #92b4e0;
+	background: white;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: #92b4e0;
+	height: 14px;
+	vertical-align: middle;
+}
+
+td.GridHeader_Web20 img
+{
+	margin-top: 10px;
+	margin-left: 2px;
+	float: left;
+}

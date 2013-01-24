@@ -1,0 +1,199 @@
+
+/* r.a.d.menu scblue skin */
+
+.RadMenu_scblue
+{
+	/*background: Blue;*/
+	background: url(img/tab_dim.gif);
+
+font-family: Verdana;
+	font-size: 8px;
+	height:28px;
+}
+
+.RadMenu_scblue_Context
+{
+	background:none;
+}
+
+.RadMenu_scblue .link
+{
+	text-decoration:none;
+	color: White;
+	line-height: 20px;
+/*	border-bottom: 2px solid #a7cfe8;
+	border-top: 3px solid #a7cfe8;*/
+}
+
+
+.RadMenu_scblue .link .text
+{
+	padding-right: 20px;
+	
+}
+
+.RadMenu_scblue .link:hover,
+.RadMenu_scblue .focused,
+.RadMenu_scblue .expanded
+{
+	/*background: #64b3df;
+	border-bottom: 3px solid #1973c9;
+	border-top: 1px solid #3487d4;*/
+	border-bottom: 3px ;
+	border-top: 1px ;
+	color: White;
+}
+
+.RadMenu_scblue .link:hover .text,
+.RadMenu_scblue .focused .text,
+.RadMenu_scblue .expanded .text
+{
+	border-top: 1px solid #85c3e6;
+}
+
+.RadMenu_scblue .rootGroup .disabled:hover
+{
+	/*border-bottom: 2px solid #a7cfe8;
+	border-top: 2px solid #a7cfe8;
+	background: #a7cfe8;*/
+	
+}
+
+.RadMenu_scblue .rootGroup .disabled:hover .text
+{
+	border-top: 1px solid #a7cfe8;
+}
+
+.RadMenu_scblue .text
+{
+	padding: 0px 15px;
+	font-size: 15px;
+}
+
+.RadMenu_scblue .group
+{
+	background: white;
+	border: 0px;
+}
+
+.RadMenu_scblue .group .link
+{
+	background: url(img/background_drop_menu.jpg);
+	/*background: #dfeef4;*/
+	border: solid 1px white;
+	border-top-color: white;
+	text-align: left;
+	padding-right: 0px; 
+}
+
+.RadMenu_scblue .group .text
+{
+	padding-left:6px;
+	padding-right: 40px;
+}
+
+
+
+.RadMenu_scblue .group .link:hover,
+.RadMenu_scblue .group .focused,
+.RadMenu_scblue .group .expanded
+{
+	/*background: #a7cfe8;*/
+	
+	border-bottom: 1px solid #1973c9;
+	border-top: 1px solid white;
+	font-weight: normal;
+}
+
+.RadMenu_scblue .group .link:hover .text,
+.RadMenu_scblue .group .focused .text,
+.RadMenu_scblue .group .expanded .text
+{
+	border-top: 0;
+}
+
+.RadMenu_scblue .leftArrow,
+.RadMenu_scblue .rightArrow,
+.RadMenu_scblue .topArrow,
+.RadMenu_scblue .bottomArrow,
+.RadMenu_scblue .leftArrowDisabled,
+.RadMenu_scblue .rightArrowDisabled,
+.RadMenu_scblue .topArrowDisabled,
+.RadMenu_scblue .bottomArrowDisabled
+{
+	border-left: 1px solid #bfcde3;
+	border-right: 1px solid #bfcde3;
+	background: #a7cfe8 url('img/left.gif') center center no-repeat;
+	width:15px;
+}
+
+.RadMenu_scblue .topArrow,
+.RadMenu_scblue .topArrowDisabled
+{
+	background-image:url('img/top.gif');
+	width: 100%;
+}
+
+.RadMenu_scblue .bottomArrow,
+.RadMenu_scblue .bottomArrowDisabled
+{
+	background-image:url('img/bottom.gif');
+	width: 100%;
+}
+
+.RadMenu_scblue .rightArrow,
+.RadMenu_scblue .leftArrow
+{
+	height:100%;
+}
+
+.RadMenu_scblue .rightArrow,
+.RadMenu_scblue .rightArrowDisabled
+{
+	background-image:url('img/right.gif');
+}
+
+
+.RadMenu_scblue .vertical .separator .text
+{
+	background: #d4e5eb;
+	font-size:1px;
+	padding-top: 2px;
+	border-left: solid 1px #bfcde3;
+	border-right: solid 1px #bfcde3;
+}
+
+
+.RadMenu_scblue .expandLeft,
+.RadMenu_scblue .expandRight
+{
+	background:transparent url(img/groupImage.gif) right center no-repeat;
+	margin: 0px;
+}
+
+
+.RadMenu_scblue_rtl .group .link:hover .expandLeft,
+.RadMenu_scblue_rtl .group .link:hover .expandRight
+{
+	background:transparent url(img/left.gif) left center no-repeat;
+	margin: 0px 1px;
+	padding-left: 8px;
+}
+
+.RadMenu_scblue_rtl .expandLeft,
+.RadMenu_scblue_rtl .expandRight
+{
+	background:transparent url(img/groupImageRTL.gif) left center no-repeat;
+}
+
+
+
+.RadMenu_scblue .link:hover .expandLeft,
+.RadMenu_scblue .link:hover .expandRight,
+.RadMenu_scblue .focused .expandLeft,
+.RadMenu_scblue .focused .expandRight,
+.RadMenu_scblue .expanded .expandLeft,
+.RadMenu_scblue .expanded .expandRight
+{
+	background:transparent url(img/invertedGroupImage.gif) right center no-repeat;
+}

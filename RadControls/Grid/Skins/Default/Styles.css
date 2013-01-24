@@ -1,0 +1,198 @@
+
+/* r.a.d.grid default / embedded skin */
+
+div.RadGrid_Default
+{
+	/*border: solid 1px #e5e5e5;
+	border-right: solid 2px #e5e5e5;
+	border-top: 0px;*/
+	text-align: left;
+	cursor: default;
+	padding-left: 4px;
+	font-size: 9pt;
+	font-family: 'Trebuchet MS';
+	background: none transparent scroll repeat 0% 0%;
+}
+
+.MasterTable_Default a
+{
+	font: 9pt 'Trebuchet MS' , 'Microsoft Sans Serif';
+	color: #000000;
+} 
+
+.MasterTable_Default
+{
+	border: 0px !important;
+	border-collapse: separate !important;
+	font-size: 9pt;
+	font-family: 'Trebuchet MS'; /*-moz-user-select: none;*/ /*disables text selecting in Firefox to combat unpleasant visual appearance*/
+	text-align: left;
+}
+
+
+th.GridHeader_Default, th.ResizeHeader_Default
+{
+	font-family: Trebuchet MS, Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #3366cc;
+}
+
+.GridHeader_Default a
+{
+	color: white;
+	font: bold 10px Arial text-decoration: none;
+}
+
+.GridRow_Default
+{
+	background: #f7f7f7;
+	height: 22px;
+}
+.GridRow_Default td
+{
+	border: solid 1px #f7f7f7;
+	border-top: solid 1px #e9e9e9;
+	border-bottom: solid 1px #c6dddf;
+	font-size: 9pt;
+	font-family: 'Trebuchet MS';
+	/*text-align: left;*/
+}
+
+.GridAltRow_Default
+{
+	height: 22px;
+	font-weight: normal;
+	font-size: 9pt;
+	font-family: 'Trebuchet MS';
+	text-align: left;
+}
+.GridAltRow_Default td
+{
+	border: solid 1px #f7f7f7;
+	border-top: solid 1px #e9e9e9;
+	border-bottom: solid 1px #c6dddf;
+	font-size: 9pt;
+	font-family: 'Trebuchet MS' , 'Microsoft Sans Serif';
+	/*text-align: left;*/
+}
+
+.SelectedRow_Default
+{
+	background: #ccffff;
+	height: 22px;
+}
+
+.SelectedRow_Default td,
+.GridEditRow_Default td
+{
+	border-top: solid 1px #e9e9e9;
+	border-bottom: solid 1px white;
+	padding-left: 5px;
+}
+
+.GridEditRow_Default
+{
+	background: #ffffe1;
+}
+
+.ActiveRow_Default,
+.ActiveRow_Default td
+{
+	background: white !important;
+	height: 22px;
+}
+
+
+/*removes default borders for custom inner tables*/
+.GridRow_Default td td, 
+.GridAltRow_Default td td,
+.SelectedRow_Default td td,
+.ActiveRow_Default td td
+{
+	border-top: none;
+	border-bottom: none;
+}
+
+.GridPager_Default
+{
+	background: white;
+	height: 21px;
+	color: #999;
+}
+.GridPager_Default td
+{
+	border: solid 1px white;
+	border-top: 1px solid #c7c7c7;
+	padding-left: 4px;
+}
+
+.GridFooter_Default
+{
+	background: #fbfbfb;
+	height: 21px;
+	color: #666;
+}
+.GridFooter_Default td
+{
+	border: solid 1px #fbfbfb;
+	border-top: 1px solid #e8e6e6;
+	padding-left: 4px;
+}
+
+.GridFooter_Default a
+{
+	color: #666;
+}
+.GridPager_Default a
+{
+	color: #999;
+}
+.GridPager_Default a:hover,
+.GridFooter_Default a:hover
+{
+	color: #333;
+}
+
+tr.GroupHeader_Default
+{
+	background: white;
+	height: 22px;
+}
+tr.GroupHeader_Default td
+{
+	border: solid 1px white;
+	padding-left: 4px;
+	font-size:9pt;
+}
+
+.GroupPanel_Default
+{
+	background-color: #e5e5e5;
+	width: 100%;
+	border-collapse: collapse;
+	border: solid 1px #c6c6c6;
+	border-bottom: 1px solid #aeaeae;
+}
+
+.GroupPanelItems_Default
+{
+	background: #efefef;
+	color: #999999;
+	border: solid 1px white;
+	border-right: solid 1px #c6c6c6;
+	border-bottom: solid 1px #c6c6c6;
+	white-space:  nowrap;
+}
+td.GridHeader_Default input
+{
+	width: auto;
+	float: left;
+	border: solid 1px #666;
+	background: #fafafa;
+	font: bold 10px Verdana, Arial, Sans-serif;
+	color: #989cb0;
+	height: 14px;
+	vertical-align:middle;
+}

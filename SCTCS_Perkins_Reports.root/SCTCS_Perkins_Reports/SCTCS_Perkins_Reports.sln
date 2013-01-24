@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SCTCS_Perkins_Reports", "SCTCS_Perkins_Reports.rptproj", "{EC368390-789D-4B4F-BA06-F8D82467C5F7}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SCTCS_Perkins_Reports.rptproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Production|Default = Production|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC368390-789D-4B4F-BA06-F8D82467C5F7}.Debug|Default.ActiveCfg = Debug
+		{EC368390-789D-4B4F-BA06-F8D82467C5F7}.Debug|Default.Build.0 = DebugLocal
+		{EC368390-789D-4B4F-BA06-F8D82467C5F7}.Debug|Default.Deploy.0 = DebugLocal
+		{EC368390-789D-4B4F-BA06-F8D82467C5F7}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{EC368390-789D-4B4F-BA06-F8D82467C5F7}.DebugLocal|Default.Build.0 = DebugLocal
+		{EC368390-789D-4B4F-BA06-F8D82467C5F7}.DebugLocal|Default.Deploy.0 = DebugLocal
+		{EC368390-789D-4B4F-BA06-F8D82467C5F7}.Production|Default.ActiveCfg = Production
+		{EC368390-789D-4B4F-BA06-F8D82467C5F7}.Production|Default.Build.0 = Production
+		{EC368390-789D-4B4F-BA06-F8D82467C5F7}.Production|Default.Deploy.0 = Production
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
